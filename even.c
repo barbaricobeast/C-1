@@ -2,16 +2,10 @@
 
 #include<stdio.h>
 void main()
-{ int numb,i;
-printf("Enter a number:");
-scanf("%d",&numb);
-if(numb%2==0) // condition to check even logic
 {
-printf("A even number");
-}
-else
-{
-printf("A odd number");
-}
+  int num;
+  printf("Enter an integer");
+  scanf("%d",&num);
+  num%2==0 ? printf("Even Number") : printf("Odd Number");
 
-}
+ }
